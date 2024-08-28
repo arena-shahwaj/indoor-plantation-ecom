@@ -1139,6 +1139,7 @@ body {
   width: 100%;
   overflow: hidden;
   color: #fff;
+  border-radius: 10px;
 }
 
 .content-box {
@@ -1149,6 +1150,7 @@ body {
   text-align: center;
   color: #fff;
   transform: translate(-50%, -50%);
+  border-radius: 6px;
 }
 
 .swiper-slide .title {
@@ -1229,6 +1231,7 @@ body {
   color: #fff;
   background-color: rgba(0, 0, 0, 0.4);
   width: 66%;
+  border-radius: 6px;
 }
 
 .content-box h2 {
@@ -1277,6 +1280,7 @@ body {
   .content-box {
     padding: 35px;
     width: 90%;
+    border-radius: 6px;
   }
 
   .subtitle {
@@ -1303,9 +1307,10 @@ body {
   .content-box {
     padding: 35px;
     width: 90%;
+    border-radius: 6px;
   }
   .subtitle{
-    margin-top: 5px !important;
+    margin-top: 6px !important;
   }
 
     .swiper-button-next,
