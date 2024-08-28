@@ -514,7 +514,7 @@ the website, in dark theme
 
 .product__img {
   position: relative;
-  width: 120px;
+  width: 155px;
   justify-self: center;
   margin-bottom: var(--mb-0-75);
   transition: .3s;
@@ -526,9 +526,12 @@ the website, in dark theme
   font-weight: var(--font-semi-bold);
   color: var(--title-color);
 }
-
+.product__price{
+  padding-left:14px
+}
 .product__title {
   margin-bottom: .25rem;
+  padding-left: 14px;
 }
 
 .product__button {
@@ -1139,9 +1142,14 @@ body {
   width: 100%;
   overflow: hidden;
   color: #fff;
+}
+.swiper-container img {
   border-radius: 10px;
 }
 
+.colored-container{
+  margin-top: 80px;
+}
 .content-box {
   position: absolute;
   left: 50%;
@@ -1282,6 +1290,10 @@ body {
     width: 90%;
     border-radius: 6px;
   }
+
+    .swiper-slide .title {
+      font-size:24px;
+    }
 
   .subtitle {
     margin-top: 5px !important;
