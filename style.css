@@ -1314,6 +1314,12 @@ body {
   margin-bottom: 1rem;
 }
 
+
+.dark-theme .pr_single .product-title {
+ 
+  color: #ffffff; 
+}
+
 .pr_single .product-rating {
   color: #ffc107;
   margin-left: 2px;
@@ -1322,6 +1328,10 @@ body {
 .pr_single .product-rating span {
   font-weight: 600;
   color: #252525;
+}
+
+.dark-theme .pr_single .product-rating span {
+  color: #ffffff;
 }
 
 .pr_single .product-price {
@@ -1400,6 +1410,10 @@ body {
   text-decoration: none;
   font-size: 0.8rem;
   transition: all 0.5s ease;
+}
+.dark-theme .pr_single .social-links a{
+  border: 2px solid #ffffff;
+  color: #fff;
 }
 
 .pr_single .social-links a:hover {
