@@ -1271,7 +1271,7 @@ body {
 
 /* product single page */
 .container.pr_single {
-  margin-top: 80px;
+  margin-top: 40px;
 }
 .pr_single .card-wrapper {
   max-width: 100%;
