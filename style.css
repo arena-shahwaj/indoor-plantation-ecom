@@ -1278,14 +1278,16 @@ body {
   padding: 100px;
 }
 
-
-
 .pr_single .img-display {
   overflow: hidden;
 }
 
 .pr_single .img-showcase img {
   min-width: 100%;
+}
+
+.pr_single .img-item img {
+  border-radius: 7px;
 }
 
 .pr_single .img-select {
