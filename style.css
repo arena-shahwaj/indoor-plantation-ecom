@@ -265,7 +265,7 @@ the website, in dark theme
 
 /* Show menu */
 .show-menu {
-  right: 0;
+  right: 0 !important;
 }
 
 /* Change background header */
