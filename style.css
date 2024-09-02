@@ -68,6 +68,10 @@
   margin: 0;
 }
 
+p {
+  line-height: 20px;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -158,7 +162,7 @@ the website, in dark theme
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
-  padding: 5.5rem 0 1rem;
+  padding: 2rem 0 1rem;
 }
 
 .section__title,
@@ -968,9 +972,6 @@ the website, in dark theme
     margin-right: auto;
   }
 
-  .section {
-    padding: 2rem 0 1rem;
-  }
 
   .section__title,
   .section__title-center {
@@ -1454,6 +1455,9 @@ body {
 
 @media screen and (max-width: 767px) {
 
+  .section {
+      padding: 1.5rem 0 1rem;
+  }
   .pr_single .card-wrapper {
       padding: 0;
     }
