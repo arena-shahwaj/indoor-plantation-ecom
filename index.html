@@ -9,7 +9,7 @@
 
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     />
     <!-- Include Swiper CSS -->
     <link
@@ -83,31 +83,6 @@
                     <!-- <div class="tag-box" data-swiper-parallax="100">
                                     fay
                                 </div> -->
-                    <img src="img/slider-1.png" alt="" />
-                  </div>
-                </div>
-
-                <div class="content-box">
-                  <div class="title" data-swiper-parallax="-600">
-                    Go The Green Way...
-                  </div>
-                  <div class="subtitle" data-swiper-parallax="-900">
-                    Go the green way, Cultivating young minds and vibrant plants
-                    together in our library oasis!
-                  </div>
-                  <a href="index.html#products" class="btn btn-main hover"
-                    >Shop Now</a
-                  >
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="slidebox">
-                <div class="flex-left">
-                  <div class="bordered-img">
-                    <!-- <div class="tag-box" data-swiper-parallax="-600">
-                                    fay
-                                </div> -->
                     <img src="img/slider-2.png" alt="" />
                   </div>
                 </div>
@@ -120,7 +95,9 @@
                     Growing knowledge and greenery, Planting seeds of wisdom and
                     nature in our library!
                   </div>
-                  <a href="index.html#products" class="btn btn-main">Shop Now</a>
+                  <a href="index.html#products" class="btn btn-main hover"
+                    >Shop Now</a
+                  >
                 </div>
               </div>
             </div>
@@ -137,13 +114,40 @@
 
                 <div class="content-box">
                   <div class="title" data-swiper-parallax="-600">
-                    It's Time To Grow Your Dream...
+                    Time To Grow Your dream...
                   </div>
                   <div class="subtitle" data-swiper-parallax="-900">
-                    Nurture your mind, cultivate your garden, and shape a
-                    brighter future in our library sanctuary!
+                    Growing knowledge and greenery, Planting seeds of wisdom and
+                    nature in our library!
                   </div>
-                  <a href="index.html#products" class="btn btn-main">Shop Now</a>
+                  <a href="index.html#products" class="btn btn-main"
+                    >Shop Now</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slidebox">
+                <div class="flex-left">
+                  <div class="bordered-img">
+                    <!-- <div class="tag-box" data-swiper-parallax="-600">
+                                    fay
+                                </div> -->
+                    <img src="img/slider-1.png" alt="" />
+                  </div>
+                </div>
+
+                <div class="content-box">
+                  <div class="title" data-swiper-parallax="-600">
+                    Go The Green Way...
+                  </div>
+                  <div class="subtitle" data-swiper-parallax="-900">
+                    Go the green way, Cultivating young minds and vibrant plants
+                    together in our library oasis!
+                  </div>
+                  <a href="index.html#products" class="btn btn-main"
+                    >Shop Now</a
+                  >
                 </div>
               </div>
             </div>
@@ -166,7 +170,9 @@
                     Where vibrant plants and inspiring spaces come together to
                     fuel your creativity and growth!
                   </div>
-                  <a href="index.html#products" class="btn btn-main">Shop Now</a>
+                  <a href="index.html#products" class="btn btn-main"
+                    >Shop Now</a
+                  >
                 </div>
               </div>
             </div>
@@ -240,7 +246,7 @@
 
           <div class="about__data">
             <h2 class="section__title about__title">
-              Who we really are & <br />
+              Who we really are &amp; <br />
               why choose us
             </h2>
 
@@ -720,17 +726,26 @@
           <h3 class="footer__title">Our Address</h3>
 
           <ul class="footer__data">
-            <li class="footer__information">
-              <p>
-                New Industrial Township, Faridabad, HR. <br />
-                <b>121001</b>
-              </p>
+            <style>
+              
+              li.footer__blablabla{
+                position: relative;
+                margin-left: 12px;
+              }
+              li.footer__blablabla::before {
+                content: "\f3c5";
+                font-family: "FontAwesome";
+                position: absolute;
+                left: -12px;
+              }
+            </style>
+            <li class="footer__information footer__blablabla">
+              New Industrial Township, Faridabad, HR. <br />
+              <b>121001</b>
             </li>
-            <li class="footer__information">
-              <p>
-                Rajender Nagar industrial Area, Ghaziabad, UP. <br />
-                <b>201005</b>
-              </p>
+            <li class="footer__information footer__blablabla">
+              Rajender Nagar industrial Area, Ghaziabad, UP. <br />
+              <b>201005</b>
             </li>
           </ul>
         </div>
