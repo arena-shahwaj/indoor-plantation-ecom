@@ -514,9 +514,11 @@ the website, in dark theme
   font-weight: var(--font-semi-bold);
   color: var(--title-color);
 }
+
 .product__price {
   padding-left: 14px;
 }
+
 .product__title {
   margin-bottom: 0.25rem;
   padding-left: 14px;
@@ -645,6 +647,18 @@ the website, in dark theme
   margin-bottom: var(--mb-0-5);
 }
 
+li.footer__blablabla {
+  position: relative;
+  margin-left: 12px;
+}
+
+li.footer__blablabla::before {
+  content: "\f3c5";
+  font-family: "FontAwesome";
+  position: absolute;
+  left: -12px;
+}
+
 .contact__description {
   display: inline-flex;
   align-items: center;
@@ -703,7 +717,7 @@ the website, in dark theme
 }
 
 /*Input focus move up label*/
-.contact__input:focus + .contact__label {
+.contact__input:focus+.contact__label {
   top: -0.75rem;
   left: 0;
   font-size: var(--smaller-font-size);
@@ -711,8 +725,7 @@ the website, in dark theme
 }
 
 /*Input focus sticky top label*/
-.contact__input:not(:placeholder-shown).contact__input:not(:focus)
-  + .contact__label {
+.contact__input:not(:placeholder-shown).contact__input:not(:focus)+.contact__label {
   top: -0.75rem;
   font-size: var(--smaller-font-size);
   z-index: 10;
@@ -1124,6 +1137,7 @@ body {
   overflow: hidden;
   color: #fff;
 }
+
 .swiper-container img {
   border-radius: 10px;
 }
@@ -1131,6 +1145,7 @@ body {
 .colored-container {
   margin-top: 80px;
 }
+
 .content-box {
   position: absolute;
   left: 50%;
@@ -1261,6 +1276,7 @@ body {
 .container.pr_single {
   margin-top: 40px;
 }
+
 .pr_single .card-wrapper {
   max-width: 100%;
   padding: 100px;
@@ -1399,6 +1415,7 @@ body {
   font-size: 0.8rem;
   transition: all 0.5s ease;
 }
+
 .dark-theme .pr_single .social-links a {
   border: 2px solid #ffffff;
   color: #fff;
@@ -1442,9 +1459,11 @@ body {
   .section {
     padding: 1.5rem 0 1rem;
   }
+
   .pr_single .card-wrapper {
     padding: 0;
   }
+
   .pr_single .card {
     display: block;
   }
@@ -1564,9 +1583,11 @@ body {
   .content-box {
     background: rgba(0, 0, 0, 0.4);
   }
+
   .btn.btn-main {
     bottom: 8px;
   }
+
   .product__container {
     gap: 2rem 1rem;
   }
