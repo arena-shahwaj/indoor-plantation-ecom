@@ -1246,8 +1246,8 @@ body {
 .slider-nav-wrapper {
   position: absolute;
   bottom: 30px;
-  width: 100px;
-  height: 50px;
+  width: 98px;
+  height: 36px;
   left: 50%;
   z-index: 99999999;
   transform: translate(-50%, 0);
@@ -1426,6 +1426,14 @@ body {
   background: #3e6553;
   border-color: transparent;
   color: #fff;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  /* height: 30px;
+  margin-top: -16px;
+  z-index: 10; */
+  background-size: 16px !important;
 }
 
 /* Responsive Design */
